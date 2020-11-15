@@ -169,7 +169,7 @@ header img
 
 .main-tables-container 
 {
-   margin: 0 5%;
+   /* margin: 0 5%; */
    display: flex;
    overflow-x: scroll;
    overscroll-behavior-x: contain;
@@ -180,7 +180,7 @@ header img
 .main-commissions-table  
 {
   width: 90%;
-  min-width: 288px;
+  min-width: 320px;
   max-width: 500px;
   height: 360px;
   margin: 0 5%;
