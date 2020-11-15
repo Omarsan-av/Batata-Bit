@@ -183,7 +183,7 @@ header img
   min-width: 288px;
   max-width: 500px;
   height: 360px;
-  /* margin: 0 auto; */
+  margin: 0 5%;
   font-family: "Inter", sans-serif;
   scroll-snap-align: center;
 }
