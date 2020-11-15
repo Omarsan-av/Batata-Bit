@@ -20,15 +20,6 @@
     font-size: 16rem;
 }
 
-.currency-table--container span 
-{
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url("https://omarsav.com/pictures/mobile-first/icons/arrow-right.svg");
-}
-
 .header--title-container p 
 {
     font-size: 18rem;

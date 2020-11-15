@@ -183,7 +183,7 @@ header img
   min-width: 320px;
   max-width: 500px;
   height: 360px;
-  margin: 0 5%;
+  /* margin: 0 5%; */
   font-family: "Inter", sans-serif;
   scroll-snap-align: center;
 }
@@ -214,6 +214,8 @@ header img
   max-width: 300px;
   height: 250px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .currency-table--container table, 
@@ -265,6 +267,18 @@ header img
   font-weight: normal;
   line-height: 17rem;
   color: #757575;
+}
+
+.currency-table--container span 
+{
+    display: inline-block;
+    width: 13px;
+    height: 20px;
+    margin-left: 20px;
+    background-image: url("https://omarsav.com/pictures/mobile-first/icons/arrow-right.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .currency-table--container .down 
@@ -628,4 +642,12 @@ footer .left ul
 {
   text-decoration: none;
   color: var(--just-white);
+}
+
+@media screen and (min-width: 400px)
+{
+  .currency-table--container span 
+  {
+    display: none;
+  }
 }
