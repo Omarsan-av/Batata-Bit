@@ -1,0 +1,77 @@
+.header--title-container h1 
+{
+    font-size: 33rem;
+    line-height: 46rem;
+}
+
+.main-exchange-container--title h2 
+{
+    font-size: 26rem;
+}
+
+.main-exchange-container--title p 
+{
+    font-size: 18rem;
+    margin-bottom: 50px;
+}
+
+.main-exchange-container p 
+{
+    font-size: 16rem;
+}
+
+.header--title-container p 
+{
+    font-size: 18rem;
+}
+
+.product-detail--title h2 
+{
+    font-size: 26rem;
+}
+
+.product-detail--title p 
+{
+    font-size: 16rem;
+}
+
+.product--card-title 
+{
+    font-size: 21rem;
+}
+
+.product--card-body 
+{
+    font-size: 15rem;
+}
+
+.main-tables-container 
+{
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.product-cards--container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.plans--title h2 
+{
+    font-size: 26rem;
+}
+
+.plans--title p 
+{
+    font-size: 16rem;
+}
+
+.plans-container--slider 
+{
+    justify-content: center;
+    overflow: hidden;
+}
