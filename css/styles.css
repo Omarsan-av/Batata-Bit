@@ -169,7 +169,6 @@ header img
 
 .main-tables-container 
 {
-   /* margin: 0 5%; */
    display: flex;
    overflow-x: scroll;
    overscroll-behavior-x: contain;
@@ -183,7 +182,6 @@ header img
   min-width: 320px;
   max-width: 500px;
   height: 360px;
-  /* margin: 0 5%; */
   font-family: "Inter", sans-serif;
   scroll-snap-align: center;
 }
@@ -216,6 +214,11 @@ header img
   margin: 0 auto;
   display: flex;
   align-items: center;
+}
+
+.currency-table--container 
+{
+  width: 100%;
 }
 
 .currency-table--container table, 
@@ -331,6 +334,12 @@ header img
   line-height: 15rem;
   font-weight: 300;
   color: var(--warm-black);
+}
+
+td 
+{
+  text-align: start;
+  padding-left: 12%;
 }
 
 .main-product-detail 
@@ -646,6 +655,11 @@ footer .left ul
 
 @media screen and (min-width: 400px)
 {
+  .currency-table--container 
+  {
+    width: 90%;
+  }
+
   .currency-table--container span 
   {
     display: none;
