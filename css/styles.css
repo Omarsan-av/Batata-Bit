@@ -42,44 +42,44 @@ header
   justify-content: center;
   width: 100%;
   min-width: 320px;
-  height: 334px;
+  height: 70vh;
   text-align: center;
   background: var(--background);
 }
 
 header img 
 {
-  width: 150px;
-  height: 24px;
-  margin-top: 60px;
-  align-self: center;
+  width: 250px;
+  align-self: start;
+  margin-left: 10%;
 }
 
 .header--title-container 
 {
-  width: 90%;
+  width: 80%;
   min-width: 288px;
   max-width: 900px;
   height: 218px;
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: center;
   align-self: center;
 }
 
 .header--title-container h1 
 {
-  font-size: 24rem;
+  font-size: 20rem;
   font-weight: bold;
   line-height: 26rem;
   color: var(--just-white);
+  text-align: left;
 }
 
 .header--title-container p 
 {
-  margin-top: 25px;
-  font-size: 15rem;
+  margin-top: 40px;
+  font-size: 16rem;
   font-weight: 500;
-  line-height: 18rem;
+  line-height: 25rem;
   color: var(--soft-primary);
 }
 
@@ -87,12 +87,12 @@ header img
 {
   position: absolute;
   left: calc(50% - 118px);
-  top: 270px;
+  top: 61vh;
   display: block;
   margin-top: 35px;
-  padding: 15px;
+  padding: 21px 15px;
   width: 229px;
-  height: 48px;
+  height: 60px;
   background-color: var(--off-white);
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   border: none;
@@ -179,7 +179,7 @@ header img
 .main-commissions-table  
 {
   width: 90%;
-  min-width: 320px;
+  min-width: 350px;
   max-width: 500px;
   height: 360px;
   font-family: "Inter", sans-serif;
@@ -211,7 +211,7 @@ header img
   min-width: 300px;
   max-width: 300px;
   height: 250px;
-  margin: 0 auto;
+  margin: 0 5%;
   display: flex;
   align-items: center;
 }
@@ -277,7 +277,7 @@ header img
     display: inline-block;
     width: 13px;
     height: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     background-image: url("https://omarsav.com/pictures/mobile-first/icons/arrow-right.svg");
     background-position: center;
     background-size: cover;
