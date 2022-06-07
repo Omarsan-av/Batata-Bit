@@ -1,0 +1,47 @@
+header img 
+{
+   align-self: center;
+   margin-left: unset;
+}
+
+.header--title-container h1 
+{
+   font-size: 40rem;
+}
+
+.header--title-container p 
+{
+   font-size: 20rem;
+   margin-top: 50px;
+}
+
+.header--title-container .header--button 
+{
+   top: 59vh;
+}
+
+.main-exchange-container 
+{
+   padding-top: 32px;
+}
+
+.main-exchange-container .backgroundImg 
+{
+   width: 250px;
+   height: 250px;
+}
+
+.main-exchange-container--title h2 
+{
+   font-size: 34rem;
+}
+
+.main-exchange-container p 
+{
+   font-size: 18rem;
+}
+
+.currency-table--container, .main-commissions-table
+{
+   margin: auto;
+}
